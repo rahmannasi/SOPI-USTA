@@ -1,0 +1,6 @@
+{
+  "name": "SOPI | İstanbul Ev Teknik Servis ve Onarım Hizmetleri",
+  "description": "İstanbul'da su, elektrik, gaz, şofben, lavabo, tuvalet, montaj ve çeşitli ev onarım hizmetleri için SOPI ile iletişime geçin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

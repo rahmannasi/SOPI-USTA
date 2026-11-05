@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  [dir="rtl"],
+  .font-vazir,
+  [dir="rtl"] body,
+  [dir="rtl"] input,
+  [dir="rtl"] textarea,
+  [dir="rtl"] button,
+  [dir="rtl"] select {
+    font-family: 'Vazirmatn', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  }
+
+  .ltr-text {
+    direction: ltr !important;
+    unicode-bidi: isolate !important;
+    text-align: left;
+    display: inline-block;
+  }
+}
